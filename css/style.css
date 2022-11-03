@@ -1,0 +1,142 @@
+body{
+    font-size: 1.4em;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+body a {
+    text-decoration: none;
+}
+
+#container {
+    width: 100%;
+}
+
+header{
+    padding: 0;
+    height: 8vh;
+}
+
+.logo{
+    filter: invert();
+    float: left;
+    text-align: center;
+    padding: 10px;
+}
+
+.links{
+    float: right;
+    text-align: center;
+    margin-right: 20px;
+}
+.links li {
+    float: left;
+}
+nav ul li a{
+    padding: 0 20px;
+}
+#main {
+    clear: both;
+    background-image: url(../img/MARVELS-SPIDER-MAN-1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    color: white;
+}
+
+
+
+.spider{
+    position: absolute;
+    top: 500px;
+    width: 220px;
+    margin: 20px;
+    background-color:rgba(201, 201, 201, 0.212);
+}
+
+footer{
+    color: white;
+}
+
+ul{
+    list-style: none;
+}
+
+.links ul li:hover{
+    background:rgba(170, 170, 170, 0.144);
+    border-radius: 5px;
+    border-bottom: 1px solid rgba(160, 1, 1, 0.603);
+}
+
+#box{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: url(../img/Spider-Man_PS4_Crouch.jpg);
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+}
+
+.stats{
+    background: rgba(121, 119, 119, 0.144);
+    margin: 10px;
+    margin-top: 100px;
+    width: 400px;
+    height: 400px;
+    color: rgb(230, 1, 1);
+    text-align: center;            
+}
+
+nav ul li a{
+    color: rgb(124, 2, 2);
+}
+
+nav ul li a:hover{
+    color: rgb(248, 52, 52);
+}
+
+.class {
+    justify-content: space-around;
+}
+
+.label {
+    display: flex;
+    flex-flow: column;
+    margin: 10px;
+    color: white;
+}
+
+.input {
+    display: flex;
+    display: inline-flex;
+    width: 70%;
+    padding: 7px;
+    margin: 5px;
+}
+
+.botao_chamar{
+    margin-top: 20px;
+    background-color: red;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.botao_chamar:hover{
+    background-color: white;
+    color: red;
+    cursor: pointer;
+}
+
+.lista_poderes {
+    font-size:25px;
+    text-align: start;
+    color: white;
+}
+
+.lista_poderes li {
+    margin-top: 10px;
+}
